@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamDeckManager", "StreamDeckManager\StreamDeckManager.csproj", "{97A0C282-018B-4BC7-AD56-E73915CB7873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "obs-websocket-dotnet", "obs-websocket-dotnet\obs-websocket-dotnet\obs-websocket-dotnet.csproj", "{C8668815-F21E-49C0-8F1A-58BC698153AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A0C282-018B-4BC7-AD56-E73915CB7873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A0C282-018B-4BC7-AD56-E73915CB7873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A0C282-018B-4BC7-AD56-E73915CB7873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A0C282-018B-4BC7-AD56-E73915CB7873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8668815-F21E-49C0-8F1A-58BC698153AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8668815-F21E-49C0-8F1A-58BC698153AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8668815-F21E-49C0-8F1A-58BC698153AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8668815-F21E-49C0-8F1A-58BC698153AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABC2E49E-1DB6-47F7-9A59-E25476EBD649}
+	EndGlobalSection
+EndGlobal

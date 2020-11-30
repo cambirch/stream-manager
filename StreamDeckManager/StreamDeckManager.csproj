@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<nullable>enable</nullable>
+		<PackageIcon>remote_control.png</PackageIcon>
+		<ApplicationIcon>icons\remote_control.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="nulastudio.NetCoreBeauty" Version="1.2.8" />
+		<PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-rc0003" />
+		<PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0009" />
+		<PackageReference Include="StreamDeckSharp" Version="2.0.0" />
+		<PackageReference Include="Websocket.Client" Version="4.3.21" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\obs-websocket-dotnet\obs-websocket-dotnet\obs-websocket-dotnet.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="appsettings.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Include="icons\remote_control.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
